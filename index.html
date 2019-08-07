@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>harshi's portfolio</title>
+	<meta name="author" content="Harshi" />
+	<meta name="description" content="Harshi's Portfolio" />
+	<meta name="keywords"  content="fullpage,software engineer, portfolio, harshibar" />
+	<meta name="Resource-type" content="Document" />
+
+  <link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- TODO -->
+  <!-- Add Google Tag Manager or Google Analytics Tags -->
+  <!-- Add Social Meta Tags  -->
+
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div>
+			<h1>hi, i'm harshi 👋</h1>
+		</div>
+	</div>
+	<div class="section" id="section1">
+    <div class="dark">
+      <h1>i'm a full-stack <a href="https://www.google.com" target="__blank">software engineer</a> based out of san francisco</h1>
+    </div>
+	</div>
+	<div class="section" id="section2">
+		<div>
+			<h1>find me on youtube as <a href="https://www.youtube.com/channel/UCsp_z4KR3dOczXw7Q-SPqQg" target="__blank">harshibar</a></h1>
+		</div>
+  </div>
+  <div class="section" id="section3">
+    <div class="dark">
+      <h1>leaf through my writing on <a href="https://www.quora.com" target="__blank">quora</a></h1>
+    </div>
+  </div>
+  <div class="section" id="section4">
+    <div>
+      <div class="socials">
+        <h1 class="social_header"> still curious? </h1> <br>
+        <!-- this is not my email... please don't email this address! -->
+        <h1> <a href="mailto:harshibar@harshibar.com?Subject=Hi%20from%20your%20website" target="_top" title="shoot me an email">email me</a></h1><br>
+
+        <h1><a href="https://www.linkedin.com/" target="__blank" title="find me on linkedin">linkedin </a></h1> <br>
+
+        <h1><a href="https://www.quora.com" target="__blank" title="read my quora">quora </a></h1> <br>
+
+        <h1><a href="https://www.youtube.com/channel/UCsp_z4KR3dOczXw7Q-SPqQg" target="__blank" title="grab some popcorn">
+        youtube </a> </h1> <br>
+
+        <h1><a href="resume.pdf" target="__blank" title="scan my resume">resume </a></h1> <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="dist/fullpage.js"></script>
+<script src="dist/fitty.min.js"></script>
+
+<!-- optimizes the loading of the page -->
+<script defer>
+  fitty('h1', {
+      minSize: 32,
+      maxSize: 64
+    });
+</script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['about', 'career', 'youtube', 'writing', 'social'],
+        sectionsColor: ['#FF006E', '#FDDB00', '#C200FB', '#53E891', '#00A5FF'],
+        scrollBar: true,
+        scrollingSpeed: 600
+    });
+</script>
+
+</body>
+</html>
